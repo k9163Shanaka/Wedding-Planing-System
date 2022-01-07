@@ -1,0 +1,174 @@
+<!--  IT20206482 | D.G.B.M.H.K Basnayaka, wedding planing system -->
+<html>
+
+<head xmlns="http://www.w3.org/1999/html">
+
+    <title> Dream Wedding Planer</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css files links -->
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/gallery.css">
+    <!-- end of css file links -->
+
+    <!--  js links -->
+
+    <script src="../js/gallery.js"></script>
+
+    <!-- end of js file links -->
+
+    <!-- Navigation bar area -->
+    <DIV CLASS="box-area"></DIV>
+    <header>
+        <div class="nav_btn">
+            <div class="logo">
+                <img src="../images/logo.png" alt="" class="logo" align="center">
+            </div>
+            <nav>
+				<a href="home.html">Home</a>
+				<a href="../php/Wedding_Venue.php">services</a>
+				<a href="../php/UserProfile.php">Profile</a>
+				<a href="gallery.html">Gallery</a>
+				<a href="contact_us.html">Contact Us</a>
+				<a href="aboutus.html">About us</a>
+
+                <a href="Signup.html">
+                    <img width="30" height="30" align="center" src="../images/user.png">
+                </a>
+
+            </nav>
+        </div>
+    </header>
+    <!--  end of Navigation bar  -->
+</head>
+
+<body>
+
+
+
+<div class="gallery_h1">
+    <h1 style=" margin: 50px;
+        font-family: 'Berlin Sans FB';
+    color: yellow;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 50px; ">Welcome to the Gallery</h1>
+</div>
+
+<div class="gallery_butten">
+    <button id="btnl" class="btn" onclick="loadDatabtn1()">Wedding Cars</button>
+    <button id="btn2" class="btn" onclick="loadDatabtn2()">Wedding Photography</button>
+    <button id="btn3" class="btn" onclick="loadDatabtn3()">Wedding Hall</button>
+    <button id="btn4" class="btn" onclick="loadDatabtn4()">Dressing</button>
+</div>
+
+<!-- wedding cars area --> <!--img/gallery/wedding_cars/3.jpg -->
+<div class="wedding_img_grid" id="wcg" style="display: block;">
+    <ul>
+        <li><img width="25%" src="../images/gallery/wedding_cars/1.jpg"></li>
+        <li><img width="25%" src="../images/gallery/wedding_cars/2.jpg"></li>
+        <li><img width="25%" src="../images/gallery/wedding_cars/3.jpg"></li>
+    </ul>
+
+    <ul>
+        <li><img width="25%" src="../images/gallery/wedding_cars/4.jpg"></li>
+        <li><img width="25%" src="../images/gallery/wedding_cars/5.jpg"></li>
+        <li><img width="25%" src="../images/gallery/wedding_cars/6.jpg"></li>
+    </ul>
+
+</div>
+<!-- end of wedding cars area -->
+
+
+<!-- Wedding Photography area-->
+
+<div class="wedding_img_grid" id="wpg" style="display: none;">
+    <ul>
+        <li><img width="25%" src="../images/gallery/wedding_photography/1.jpg"></li>
+        <li><img width="25%" src="../images/gallery/wedding_photography/2.jpg"></li>
+        <li><img width="25%" src="../images/gallery/wedding_photography/3.jpg"></li>
+    </ul>
+
+    <ul>
+        <li><img width="25%" src="../images/gallery/wedding_photography/4.jpg"></li>
+        <li><img width="25%" src="../images/gallery/wedding_photography/5.jpg"></li>
+        <li><img width="25%" src="../images/gallery/wedding_photography/6.jpg"></li>
+    </ul>
+
+</div>
+
+
+
+<!-- end of wedding photography area-->
+
+<!-- weddinng hall area -->
+<div class="wedding_img_grid" id="wh" style="display: none;">
+    <ul>
+        <li><img width="25%" src="../images/gallery/wedding_hall/1.jpg"></li>
+        <li><img width="25%" src="../images/gallery/wedding_hall/2.jpg"></li>
+        <li><img width="25%" src="../images/gallery/wedding_hall/3.jpg"></li>
+    </ul>
+
+    <ul>
+        <li><img width="25%" src="../images/gallery/wedding_hall/4.jpg"></li>
+        <li><img width="25%" src="../images/gallery/wedding_hall/5.jpg"></li>
+        <li><img width="25%" src="../images/gallery/wedding_hall/6.jpg"></li>
+    </ul>
+
+</div>
+<!-- end of wedding hall area-->
+
+<!-- dressing area -->
+<div class="wedding_img_grid" id="dr" style="display: none;">
+    <ul>
+        <li><img width="25%" src="../images/gallery/dressing/1.jpg"></li>
+        <li><img width="25%" src="../images/gallery/dressing/2.jpg"></li>
+        <li><img width="25%" src="../images/gallery/dressing/3.jpg"></li>
+    </ul>
+
+    <ul>
+        <li><img width="25%" src="../images/gallery/dressing/4.jpg"></li>
+        <li><img width="25%" src="../images/gallery/dressing/5.jpg"></li>
+        <li><img width="25%" src="../images/gallery/dressing/6.jpg"></li>
+    </ul>
+
+</div>
+<!-- end of dressing area -->
+</body>
+
+<footer>
+    <div class="footer-container">
+        <div class="left-col">
+            <img src="../images/logo.png" alt="" class="footer-logo">
+            <div class="social-media">
+                <a href="#"><img height="30" width="30" src="../images/icon/fb.png"> </a>
+                <a href="#"> <img height="30" width="30" src="../images/icon/twitter-.png"> </a>
+                <a href="#"> <img height="30" width="30" src="../images/icon/instagram.png"> </a>
+                <a href="#"> <img height="30" width="30" src="../images/icon/youtube.png"> </a>
+            </div>
+            <p class="right-text" style="color: black;  font-family: sans-serif;" >&copy; 2020 Dream wedding planners.</p>
+        </div>
+
+        <div class="right-col">
+            <div class="pages">
+                <a href="#">Home</a>
+                <a href="#">Services</a>
+                <a href="#">Profile</a>
+                <a href="#">Gallery</a>
+                <a href="#">About Us
+                    <a href="#">Contact us</a>
+
+            </div>
+
+            <div class="pay_us">
+                <p>Payment methods</p>
+                <div class="border"></div>
+            </div>
+
+            <div class="pay_logo">
+                <img width="250" height="50" src="../images/pay.png">
+            </div>
+        </div>
+    </div>
+</footer>
+</html>

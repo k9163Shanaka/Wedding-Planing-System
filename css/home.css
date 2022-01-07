@@ -1,0 +1,186 @@
+/* IT20206482
+D.G.B.M.H.K Basnayaka, wedding planing system */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.nav_btn{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header{
+    height: 100px;
+    background: #f4ed5e;
+    width: 100%;
+    z-index: 12;
+
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.logo{
+    width: 300px;
+    float: left;
+    line-height: 100px;
+    position: relative;
+    top: 5px;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #000000;
+    letter-spacing: 5px;
+}
+
+nav{
+    float: right;
+    line-height: 100px;
+
+}
+
+nav a {
+
+    text-decoration: none;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 10px;
+    margin: 0 10px;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+footer{
+    background: #f4ed5e;
+    padding: 10px 20px;
+}
+
+.footer-container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+.footer-logo{
+    width: 300px;
+}
+
+.social-media{
+
+    margin: 20px 0;
+}
+
+.social-media a{
+
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+
+
+.right-text{
+    color: #888;
+    font-family: lato;
+}
+
+.right-col h1{
+    font-size: 20px;
+}
+
+.border{
+    width: 100px;
+    height: 4px;
+    background: #f4402e;
+    float: left;
+}
+
+.pay_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.txtb{
+    flex: 1;
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #ddd;
+    background: #ffffff;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    min-width: 260px;
+}
+
+.pages a {
+    text-decoration: black;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 10px;
+    margin: 0 10px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.pay_us{
+
+    margin: 10px;
+    padding: 5px;
+
+}
+
+.pay_us p{
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+.home-page{
+    margin: 100px;
+
+}
+
+.btn{
+
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #000000;
+    background: #f4ed5e;
+    border: none;
+    font-weight: bold;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: opacity .3s linear;
+
+
+}
+.plan-btn{
+
+    position: relative;
+    bottom: 70px;
+}
+
+.btn:hover{
+    opacity: .7;
+
+}

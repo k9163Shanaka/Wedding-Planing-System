@@ -1,0 +1,45 @@
+/* IT20206482
+D.G.B.M.H.K Basnayaka, wedding planing system */
+
+.gallery_h1{
+    margin: 20px;
+
+}
+
+.btn{
+
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #000000;
+    background: #f4ed5e;
+    border: none;
+    font-weight: bold;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: opacity .3s linear;
+
+
+}
+.btn:hover{
+    opacity: .7;
+
+}
+
+.gallery_butten{
+    margin: 20px;
+}
+
+.wedding_img_grid{
+    margin: 50px;
+}
+ul {
+    white-space: nowrap;
+
+}
+ul, li {
+
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}

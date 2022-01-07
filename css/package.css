@@ -1,0 +1,582 @@
+/*IT20244170 K.P.S.G.G Wijegunerathna*/
+
+body{
+	margin:0;
+	background-image: url("../images/upload/100.jpg");
+}
+
+/*Invoice Page*/
+
+table,th,tr,td{
+    text-align: center;
+	margin:auto;
+	border-collapse: collapse;
+	border: 1px solid black;
+	font-size:20px;
+
+}
+
+.title2{
+	margin-top:15vh;
+    text-align: center;
+    color: #66afe9;
+    background-color: #efefef;
+    padding: 5vh;
+}
+
+table th{
+	background-color: #efefef;
+	padding:1.5vw;
+
+}
+
+.invoice_btn button{
+	padding:10px;
+	font-size:18px;
+	margin-bottom:70px;
+	cursor: pointer;
+}
+
+
+/*Wedding Venue,Photography,wedding car and Entertainment*/
+
+.title{
+	display:inline-block;
+	margin-left:53%;
+	margin-top:15vh;
+}
+
+.image{
+	margin-left:3vw;
+	margin-right:3vw;
+	background-color:;
+	overflow:hidden;
+}
+
+
+
+.b1{
+	background-color:;
+	margin-left:25%;
+	width:65%;
+	margin-bottom:5vh;
+}
+
+.b2{
+	text-align: center;
+	margin-bottom:5vh;
+	margin-left:5vh;
+	display:inline-block;
+	background-color:#DAF7A6 ;
+	width:90%;
+	border-radius:1vw;
+	
+}
+
+.btn{
+	padding:1.3vw;
+	width:10vw;
+	background-color:yellow;
+	border-radius:1vw;
+	font-family: "Times New Roman", Times, serif;
+	font-size:1.4vw;
+	font-weight:bold;
+	margin-bottom:1vh;
+	cursor: pointer;
+	
+}
+
+.btn:hover{
+	background-color:red;
+	color:white;
+}
+
+
+.b2 p{
+font-family:'Times New Roman',serif;
+	font-size:1.5vw;
+}
+
+
+
+/*Decorations Page*/
+
+
+.decoration_title{
+	display:inline-block;
+	margin-top:16vh;
+	margin-left:55vw;
+
+}
+
+.title_decoration {
+	padding-top:1vh;
+}
+
+
+.d_container{
+	font-family:'Times New Roman',serif;
+	font-size:1.5vw;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	margin-top:2vh;
+}
+
+.d_container h3{
+	font-size:2vw;
+}
+
+.d_container p{
+	margin-left:1vw;
+	margin-right:1vw;
+}
+
+.d_box1{
+	background-color:#EAFF7F;
+	width: 25vw;
+	margin-left:25vw;
+	border-radius:2vw;
+}
+
+.d_box2{
+	background-color:#EAFF7F;
+	width: 25vw;
+	margin-right:5vw;
+	border-radius:2vw;
+}
+
+.d_box3{
+	background-color:#EAFF7F;
+	width: 25vw;
+	margin-top:5vh;
+	margin-left:20vw;
+	border-radius:2vw;
+}	
+
+
+.d_container button{
+	padding:1.3vw;
+	width:10vw;
+	background-color:yellow;
+	border-radius:1vw;
+	 font-family: "Times New Roman", Times, serif;
+	font-size:1.4vw;
+	font-weight:bold;
+	cursor: pointer;
+	
+}
+
+.d_button1{
+	margin-top:3vh;
+	margin-bottom:3vh;
+}
+
+.d_button2{
+	margin-top:3vh;
+	margin-bottom:4vh;
+}
+
+.d_button3{
+	margin-top:3vh;
+	margin-bottom:4vh;
+}
+
+.d_container button:hover{
+	background-color:red;
+	color:white;
+}
+
+
+
+/*Bridal and Groom Dress,Flower Bouquests,Setteebacks and Poruwa Designs*/
+
+.flower_title{
+	display:inline-block;
+	margin-top:16vh;
+	margin-left:50%;
+
+}
+
+.content_title {
+	padding-top:2vh;
+}
+
+
+.content_container{
+	background-color:;
+	font-family:'Times New Roman',serif;
+	font-size:1.5vw;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	padding: 0;
+	margin-top:3vh;
+	margin-right: 5%;
+	margin-left: 25%;
+}
+
+
+.content_container h3{
+	font-size:2vw;
+}
+
+.content_container p{
+	margin-left:1vw;
+	margin-right:1vw;
+}
+
+.content_box{
+	background-color:#DAF7A6 ;
+	width: 40%;
+	padding-bottom: 4vh;
+	padding-bottom: 0;
+	border-radius:2vw;
+	margin: 4vh;
+
+}
+
+
+
+.content_container button{
+	padding:1.3vw;
+	width:10vw;
+	height: 4.5vw;
+	background-color:yellow;
+	border-radius:1vw;
+	font-family: "Times New Roman", Times, serif;
+	font-size:1.4vw;
+	font-weight:bold;
+
+	
+}
+
+.content_button{
+	margin-bottom: 2px;
+}
+
+
+.content_container button:hover{
+	background-color:red;
+	color:white;
+}
+
+
+/*sidebar*/
+
+.side *{
+	margin:0;
+	padding: 0;
+	float:left;	
+
+}	
+
+
+.side{
+	display:flex;
+	position:fixed;
+	background:gold;
+	width:20vw;
+	margin-top:16vh;
+	left:0;
+
+}
+
+.side ul li{
+	font-family: 'Josefin sans',sans-serif;	
+	font-size:1.4vw;
+	padding:2vw;
+	list-style:none;
+}
+
+.side ul li a{
+	color:black;
+	text-decoration:none;
+}
+
+
+
+.side ul li:hover{
+	background:#FF5733;
+	width:16.4vw;
+	border-style: inset;
+
+}
+
+.side ul li:hover a{
+	color:white;
+	
+}
+
+
+
+/*CheckOut*/
+
+
+.detail{
+	
+	background:;
+	display:inline-block;
+	width:65%;
+	height:600px;
+	margin-top:16vh;
+	margin-left:25vw;
+	margin-bottom:5vh;
+	border-radius:14px;
+	padding-left:3vw;
+}
+
+.detail h3{
+
+	font-size:4vw;
+}
+
+label{
+	margin-left:5vw;
+	margin-right:5vw;
+}
+
+
+
+input[type=text] {
+	
+	padding:1vw;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+#cname {
+	margin-left:5vw;
+	width:50vw;
+}
+
+#ccnum{
+	margin-left:5vw;
+	width:50vw;
+}
+
+#exmonth{
+	margin-left:5vw;
+	width:7vw;
+}
+
+#expyear{
+	margin-left:6.5vw;
+	width:7vw;
+}
+
+#cvv{
+	margin-left:5.5vw;
+	width:5vw;
+}
+
+.cname {
+	display:inline-block;
+	width:10vw;
+}
+
+.detail button{
+	margin:2vw;
+	padding:1vw;
+	background:black;
+	color:white;
+	font-size:1.5vw;
+	border-radius:5px;
+	cursor: pointer;
+}
+
+.detail button:hover{
+	background:green;
+}
+
+.cardname{
+	margin-left:5vw;
+}
+
+.bill {
+	background:white;
+	padding-left:5vw;
+	margin-left:5vw;	
+    width: 46vw;
+    border:solid black;
+	border-radius:12px;
+}
+
+.bill h4{
+	margin-left:10vw;
+}
+
+
+
+
+
+/*Header and Footer*/
+
+
+
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+
+}
+
+header{
+	position:fixed;
+	top:0;
+	left:0;
+    height: 100px;
+    background: #f4ed5e;
+    width: 100%;
+	z-index: 12;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.logo{
+    width: 300px;
+    float: left;
+    line-height: 100px;
+    position: relative;
+    top: 5px;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #000000;
+    letter-spacing: 5px;
+}
+
+nav{
+    float: right;
+    line-height: 100px;
+
+}
+
+nav a {
+
+    text-decoration: none;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 10px;
+    margin: 0 10px;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+
+footer{
+	position:relative;
+    background: #f4ed5e;
+	padding: 10px 20px;
+}
+
+.footer-container {
+    max-width: 1300;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+
+}
+.footer-logo{
+    width: 300px;
+}
+
+.social-media{
+
+    margin: 20px 0;
+}
+
+.social-media a{
+    color: #fff;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .3s linear;
+}
+
+.social-media a:hover{
+    color: #2196F3;
+}
+
+.right-text{
+    color: #888;
+    font-family: lato;
+}
+
+.right-col h1{
+    font-size: 20px;
+}
+
+.border{
+    width: 100px;
+    height: 4px;
+    background: #f4402e;
+    float: left;
+}
+
+.pay_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.txtb{
+    flex: 1;
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #ddd;
+    background: #ffffff;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    min-width: 260px;
+}
+
+.pages a {
+    text-decoration: black;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 10px;
+    margin: 0 10px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.pay_us{
+
+    margin: 10px;
+    padding: 5px;
+
+}
+
+.pay_us p{
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+.home-page{
+    min-height: 100vh;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: none;
+
+}
+
+
+
+
+
+

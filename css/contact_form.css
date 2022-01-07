@@ -1,0 +1,92 @@
+.contact{
+	margin-top:120px;
+}
+
+.c_form{
+    background-image:url(../images/3.jpg);
+    height: 800px;
+    width: 1300px;
+    border: #dbdbdb solid 1px;
+    margin: 50px;
+	margin-left: 110px;
+	
+    
+    
+}
+
+.c_form form{
+    float: left;
+    position: relative;
+    top: 50px;
+    margin: 0px 0px 0px 100px;
+    
+}
+
+.mapouter { 
+    
+    text-align:right;
+    height:388px;
+    width:624px;
+    border: #db0b0b solid 1px;
+    position: relative;
+    float: left;
+    margin: 0px 0px 0px 150px;
+    top: 50px;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:388px;
+    width:624px;
+}
+
+input, text{
+    flex: 1;
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #ddd;
+    background: #ffffff;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    min-width: 260px;
+}
+
+input, textarea{
+    flex: 1;
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #dd5242;
+    background: #ffffff;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    min-width: 260px;
+}
+
+.btn{
+
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #000000;
+    background: #f4ed5e;
+    border: none;
+    font-weight: bold;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: opacity .3s linear;
+
+
+}
+
+.address_text{
+	
+    position: relative;
+    float: left;
+    top: 100px;
+    left: 250px;
+    border: red;
+}

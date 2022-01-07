@@ -1,0 +1,120 @@
+<!DOCTYPE html><!--  IT20263058 | H.C.M. Silva -->
+
+<head>
+
+    <title> Dream Wedding Planer</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/contact_us.css">
+    <link rel="stylesheet" href="../css/contact_form.css">
+    <script src="../js/contact_us.js"></script>
+
+
+    
+</head>
+
+<body>
+    <header>
+        <div class="wrapper" >
+            <div class="logo">
+                <img src="../images/logo.png" alt="" class="logo" align="center">
+            </div>
+            <nav>
+            <a href="../html/home.html">Home</a>
+            <a href="../php/Wedding_Venue.php">services</a>
+            <a href="../php/UserProfile.php">Profile</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact_us.html">Contact Us</a>
+            <a href="aboutus.html">About us</a>
+
+            <a href="Signup.html">
+                    <img width="30" height="30" align="center" src="../images/user.png">
+                </a>
+    
+            </nav>
+        </div>
+    </header>
+
+
+<h1 class="contact" >Contact Us</h1>
+
+
+<div class="c_form">
+    <form action="../php/send.php" method="post" id="contact_form" onsubmit="check()">
+        <label for="fname">First Name</label></br></br>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.." required ></br></br>
+    
+        <label for="lname">Last Name</label></br></br>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.."></br></br>
+    
+        <label for="lname">Mobile Number</label></br></br>
+        <input type="text" id="m_number" name="Mobile" placeholder="Your Mobile Number.." pattern="[0-9]{10}" required ></br></br>
+    
+        <label for="subject">Subject</label></br></br>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" ></textarea></br></br>
+    
+        <button class="btn" type="submit" form="contact_form" value="Submit">Submit</button>
+      </form>
+
+      <div class="mapouter">
+        <div class="gmap_canvas">
+            <iframe width="624" height="388" id="gmap_canvas" src="https://maps.google.com/maps?q=kurunegala&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+          </iframe>
+          <a href="https://123movies-to.org"></a>
+          
+       </div>
+      </div> 
+	  <br><br><br><br>
+      <div class="address_text">
+        <address>
+           Dream Wedding Planers (PVT) LTD.</a>.<br> 
+            Mihindu Mawatha<br>
+            Kurunegala<br>
+
+            Telephone : -  +9477 555 555 5<br>
+            
+            </address>
+      </div>
+  </div>
+
+  
+
+
+
+</body>
+<footer>
+    <div class="footer-container">
+        <div class="left-col">
+            <img src="../images/logo.png" alt="" class="footer-logo">
+            <div class="social-media">
+                <a href="#"><img height="30" width="30" src="../images/icon/fb.png"> </a>
+                <a href="#"> <img height="30" width="30" src="../images/icon/twitter-.png"> </a>
+                <a href="#"> <img height="30" width="30" src="../images/icon/instagram.png"> </a>
+                <a href="#"> <img height="30" width="30" src="../images/icon/youtube.png"> </a>
+            </div>
+            <p class="right-text">&copy; 2020 wedding planer.</p>
+        </div>
+
+        <div class="right-col">
+            <div class="pages">
+                <a href="#">Home</a>
+                <a href="#">Services</a>
+                <a href="#">Profile</a>
+                <a href="#">Gallery</a>
+                <a href="#">About Us
+                <a href="#">Contact us</a>
+
+            </div>
+
+            <div class="pay_us">
+                <p>Payment methods</p>
+                <div class="border"></div>
+            </div>
+
+            <div class="pay_logo">
+                <img width="250" height="50" src="../images/pay.png">
+            </div>
+        </div>
+    </div>
+</footer>
+</html>
